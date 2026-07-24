@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="760" viewBox="0 0 640 760" role="img" aria-labelledby="title desc">
+  <title id="title">Profile image placeholder</title>
+  <desc id="desc">Abstract geometric placeholder for a future professional portrait.</desc>
+  <rect width="640" height="760" fill="#10161e"/>
+  <g fill="none" stroke="#26313d">
+    <path d="M0 80h640M0 160h640M0 240h640M0 320h640M0 400h640M0 480h640M0 560h640M0 640h640M80 0v760M160 0v760M240 0v760M320 0v760M400 0v760M480 0v760M560 0v760"/>
+  </g>
+  <path d="M160 570c18-118 78-176 160-176s142 58 160 176" fill="#151d27" stroke="#344150" stroke-width="2"/>
+  <circle cx="320" cy="280" r="110" fill="#151d27" stroke="#344150" stroke-width="2"/>
+  <path d="M80 80h150" stroke="#39a9ff" stroke-width="4"/>
+  <path d="M510 680h50" stroke="#ff7a1a" stroke-width="4"/>
+</svg>
