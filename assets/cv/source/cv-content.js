@@ -7,6 +7,7 @@ window.CVTranslations = {
       summary: "Summary",
       expertise: "Delivery profile",
       experience: "Professional experience",
+      industries: "Industry experience",
       credentials: "Credentials & education"
     },
     summary: [
@@ -66,6 +67,7 @@ window.CVTranslations = {
         ]
       }
     ],
+    industries: "Game Development | iGaming | Software & Digital Products | Technology Operations | Government Systems | Web Hosting & Payments",
     credentials: [
       { category: "Certifications", text: "PMP — Project Management Professional | CAMS — Certified Anti-Money Laundering Specialist | CTFL — Certified Tester Foundation Level" },
       { category: "Education", text: "MSc, Information Technology — TalTech | BSc, Computer Science — TalTech" }
@@ -79,6 +81,7 @@ window.CVTranslations = {
       summary: "Profiil",
       expertise: "Tarnejuhtimise pädevused",
       experience: "Töökogemus",
+      industries: "Valdkondlik kogemus",
       credentials: "Sertifikaadid ja haridus"
     },
     summary: [
@@ -138,6 +141,7 @@ window.CVTranslations = {
         ]
       }
     ],
+    industries: "Mänguarendus | iGaming | Tarkvara ja digitooted | Tehnoloogiaoperatsioonid | Riigi infosüsteemid | Veebimajutus ja maksed",
     credentials: [
       { category: "Sertifikaadid", text: "PMP — Project Management Professional | CAMS — Certified Anti-Money Laundering Specialist | CTFL — Certified Tester Foundation Level" },
       { category: "Haridus", text: "MSc, infotehnoloogia — TalTech | BSc, arvutiteadus — TalTech" }
@@ -151,6 +155,7 @@ window.CVTranslations = {
       summary: "Профиль",
       expertise: "Компетенции в delivery",
       experience: "Профессиональный опыт",
+      industries: "Отраслевой опыт",
       credentials: "Сертификации и образование"
     },
     summary: [
@@ -210,6 +215,7 @@ window.CVTranslations = {
         ]
       }
     ],
+    industries: "Разработка игр | iGaming | ПО и цифровые продукты | Технологические операции | Государственные системы | Веб-хостинг и платежи",
     credentials: [
       { category: "Сертификации", text: "PMP — Project Management Professional | CAMS — Certified Anti-Money Laundering Specialist | CTFL — Certified Tester Foundation Level" },
       { category: "Образование", text: "MSc, информационные технологии — TalTech | BSc, компьютерные науки — TalTech" }
