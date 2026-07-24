@@ -117,5 +117,5 @@ window.PortfolioTranslations.ru = {
     email: "Написать письмо"
   },
   footer: { top: "Наверх ↑" },
-  cv: "assets/cv/toomas-taro-cv-en.pdf"
+  cv: "assets/cv/toomas-taro-cv-ru.pdf"
 };

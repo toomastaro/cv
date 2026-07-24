@@ -117,5 +117,5 @@ window.PortfolioTranslations.et = {
     email: "Saada e-kiri"
   },
   footer: { top: "Tagasi üles ↑" },
-  cv: "assets/cv/toomas-taro-cv-en.pdf"
+  cv: "assets/cv/toomas-taro-cv-et.pdf"
 };

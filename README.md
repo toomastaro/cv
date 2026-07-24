@@ -24,7 +24,7 @@ A lightweight, multilingual portfolio for Toomas Taro, Project & Delivery Manage
 │   └── ru.js                  Russian content
 ├── assets/
 │   ├── images/                Social preview and decorative SVG assets
-│   └── cv/                    Downloadable CV files
+│   └── cv/                    Downloadable CV files and print source
 ├── favicon.svg
 ├── 404.html
 ├── robots.txt
@@ -76,9 +76,24 @@ toomas-taro-cv-et.pdf
 toomas-taro-cv-ru.pdf
 ```
 
-Then update the `cv` property in each translation file. Until translated PDFs are available, each language may point to the English PDF.
+The repository includes one-page English, Estonian and Russian PDFs. Each language points to its matching file.
 
-The repository currently contains an empty English PDF placeholder. Replace it with the final document before sharing the download link publicly.
+The editable print source is in `assets/cv/source/`:
+
+- `cv.html` — shared document structure
+- `cv.css` — A4 print layout
+- `cv-content.js` — CV content in all three languages
+- `cv.js` — shared rendering logic
+
+Preview a version through the local server:
+
+```text
+http://localhost:8000/assets/cv/source/cv.html?lang=en
+http://localhost:8000/assets/cv/source/cv.html?lang=et
+http://localhost:8000/assets/cv/source/cv.html?lang=ru
+```
+
+After editing, print each page to PDF without browser headers and footers and keep the filenames listed above.
 
 ## Metadata and social preview
 

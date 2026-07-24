@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toomas Taro — CV</title>
+  <link rel="stylesheet" href="cv.css">
+  <script defer src="cv-content.js"></script>
+  <script defer src="cv.js"></script>
+</head>
+<body>
+  <main class="page" aria-label="Curriculum vitae">
+    <header class="cv-header">
+      <h1>Toomas Taro</h1>
+      <p class="role" data-field="role"></p>
+      <div class="contact-line" data-render="contacts"></div>
+    </header>
+
+    <section aria-labelledby="summary-title">
+      <h2 id="summary-title" data-field="labels.summary"></h2>
+      <div class="summary" data-render="summary"></div>
+    </section>
+
+    <section aria-labelledby="expertise-title">
+      <h2 id="expertise-title" data-field="labels.expertise"></h2>
+      <ul class="expertise-list" data-render="expertise"></ul>
+    </section>
+
+    <section aria-labelledby="experience-title">
+      <h2 id="experience-title" data-field="labels.experience"></h2>
+      <div class="experience-list" data-render="experience"></div>
+    </section>
+
+    <section class="bottom-section" aria-labelledby="credentials-title">
+      <h2 id="credentials-title" data-field="labels.credentials"></h2>
+      <div class="credentials" data-render="credentials"></div>
+    </section>
+  </main>
+</body>
+</html>
